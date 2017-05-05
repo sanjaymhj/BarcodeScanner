@@ -32,7 +32,10 @@ class ViewController: UIViewController {
     let controller = BarcodeScannerController()
     controller.codeDelegate = self
     controller.errorDelegate = self
-    controller.dismissalDelegate = self
+//    controller.dismissalDelegate = self
+//    controller.navigationController?.barHideOnTapGestureRecognizer = false
+    controller.navigationController?.isToolbarHidden = false
+    controller.navigationController?.isNavigationBarHidden = false
 
     present(controller, animated: true, completion: nil)
   }
