@@ -83,5 +83,7 @@ public var metadata = [
   AVMetadataObjectTypeCode128Code,
   AVMetadataObjectTypePDF417Code,
   AVMetadataObjectTypeQRCode,
-  AVMetadataObjectTypeAztecCode
+  AVMetadataObjectTypeAztecCode,
+  AVMetadataObjectTypeInterleaved2of5Code,
+  AVMetadataObjectTypeITF14Code
 ]
