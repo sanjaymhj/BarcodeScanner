@@ -300,7 +300,7 @@ open class BarcodeScannerController: UIViewController {
     flashButton.alpha = alpha
     settingsButton.isHidden = status.state != .unauthorized
   }
-
+    
   // MARK: - Layout
   open override func viewWillLayoutSubviews() {
     super.viewWillLayoutSubviews()
@@ -325,7 +325,7 @@ open class BarcodeScannerController: UIViewController {
     center(subview: focusView, inSize: CGSize(width: 218, height: 150))
     center(subview: settingsButton, inSize: CGSize(width: 150, height: 50))
 
-    headerView.isHidden = !isBeingPresented
+    headerView.isHidden = false//!isBeingPresented
   }
 
   /**
