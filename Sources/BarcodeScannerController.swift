@@ -358,11 +358,8 @@ open class BarcodeScannerController: UIViewController {
         center(subview: focusView, inSize: CGSize(width: 218, height: 150))
     }
 
-<<<<<<< HEAD
     headerView.isHidden = false//!isBeingPresented
-=======
-    center(subview: settingsButton, inSize: CGSize(width: 150, height: 50))
->>>>>>> upstream/master
+//    center(subview: settingsButton, inSize: CGSize(width: 150, height: 50))
   }
 
   /**
